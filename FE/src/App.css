@@ -1,0 +1,127 @@
+* {
+  background: #282c34;
+  color: cadetblue;
+  margin: 0 auto;
+}
+
+.App {
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin-top: 3%;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* TaskInputForm component styles */
+.TaskInputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.TaskInputForm label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.TaskInputForm input[type="text"], .TaskInputForm textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.TaskInputForm select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.TaskInputForm button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* TaskList component styles */
+.TaskList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.TaskList .task {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.TaskList .task h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.TaskList .task p {
+  font-size: 18px;
+}
+
+.TaskList .task button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* SearchBar component styles */
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.SearchBar input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.SearchBar button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
